@@ -1,0 +1,739 @@
+*{margin: 0;
+    padding: 0;
+box-sizing: border-box;}
+
+body{font-family: "Roboto", sans-serif;}
+
+#HOME{
+    text-decoration: none;
+font-size: 13px;
+
+font-weight: 500;
+}
+
+.black{text-decoration: none;
+font-size: 13px;
+color: black;
+font-weight: 500;
+}
+
+.black:hover{
+    color: #ad9966;
+}
+
+header{border-color: white;
+}
+
+.defora{
+    display: inline-block;
+    width: 4%;
+}
+
+#listaDeFora{
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+#listaDeDentro{
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+#logo{
+    width: 20%;
+    vertical-align: middle;
+}
+
+#logo img{
+    height: 79.38px;
+    width: 66.81px;
+    margin-top: 15px;
+}
+#section1{
+    height: 78vh;
+    background-image: url(https://preview.colorlib.com/theme/rooftop/img/header-bg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    position: relative;
+}
+hr{margin: auto;}
+
+h1{
+    font-family: "Playfair Display", serif;
+    font-size: 72px;
+    font-weight: 500;
+    color: white;
+    letter-spacing: 10.8px;
+    line-height: 2;
+}
+#texto-centro{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#titulo{
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+#corpo{
+    width: 50%;
+    height: 100%;
+    font-family: "Playfair Display", serif;
+    margin: auto;
+    position: absolute;
+    display: inline-block;
+    top: 25%;
+    left: 8.5%;
+
+    right: 500px;
+    
+
+    
+}
+
+#titulo2{
+    color: black;
+    font-size: 48px;
+    font-weight: 100;
+    line-height: 150%;
+    text-transform: uppercase;
+}
+
+hr {
+    margin-bottom: 10%;
+    width: 445px;
+}
+
+.header-fixed {
+    position: fixed;
+    left: 0;
+    top: 0;
+    
+   
+}
+
+.header-fixed:hover{
+
+    box-shadow: -21.213px 21.213px 30px 0px rgba(158, 158, 158, 0.3);
+}
+.header-area {
+    padding: 10px 0;
+    position: sticky;
+    background-color: #fff;
+    width: 100%;
+    z-index: 999999;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+.ana{
+    width: 100%; 
+    color: #777777;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.7;
+    position: relative;
+}
+    .primary-btn {
+        line-height: 48px;
+        padding: 0 30px;
+        border-radius: 0px;
+        background: #ad9966;
+        border: 1px solid #ad9966;
+        color: #ffffff;
+        display: inline-block;
+        font-weight: normal;
+        position: relative;
+        letter-spacing: 2px;
+        -webkit-transition: all 0.4s ease 0s;
+        -moz-transition: all 0.4s ease 0s;
+        -o-transition: all 0.4s ease 0s;
+        transition: all 0.4s ease 0s;
+        cursor: pointer;
+        font-family: "Roboto", sans-serif;
+        font-size: 15px;
+    }
+    
+    .text-uppercase {
+        text-transform: uppercase !important;
+    }
+
+    #sixseven{
+    background-color: #faf5f0;
+    
+    padding: 80px 40px;
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    align-self: flex-start;
+    margin-top: -29%;
+    margin-left: 0.05%;
+    margin-right: 10%;
+    text-align: center;
+    margin-top: 48px;
+    vertical-align: center;
+    position: absolute;
+    width: 50%;
+    left: 590px;
+    }
+    #section2{
+        width: 80%;
+        height: 120vh;
+        margin: auto;
+        position: relative;
+    }
+
+    .setab{
+        position: fixed;
+        margin-left: 95.15%;
+        margin-top: 16%;
+        background-image: url(https://preview.colorlib.com/theme/rooftop/img/book-table-bg.png);
+        width: 92px;
+        height: 180px;
+    }
+    .setaa{
+        position: fixed;
+        margin-right: 95.15%;
+        margin-top: 16%;
+        background-image: url(https://preview.colorlib.com/theme/rooftop/img/view-menu-bg.png);
+        width: 92px;
+        height: 180px;
+    }
+    .primary-btn:hover{
+        color: #ad9966;
+        background-color: white;
+        border: solid 1px #ad9966;
+        transition: 0.5s;
+    }
+    .primary-btn:hover a{
+        color: #ad9966;
+    }
+    #HOME{
+        color: #ad9966;
+    }
+
+    .setaa #setaaA{
+        position:absolute;
+        top: 50%;
+        transform: translateY(-50%) rotate(90deg);
+        transition: 0.390s;
+        font-size: 12.5px;
+        margin-left: -50px;
+    }
+    .setaa:hover #setaaA{
+        position:absolute;
+        top: 50%;
+        left: 60%;
+        transform: translateY(-50%);
+    }
+
+    .setab #setabB{
+        position:absolute;
+        top: 50%;
+        margin-right: 50px;
+        margin-left: -30.5px;
+        transform: translateY(-50%) rotate(-90deg);
+        transition: 0.390s;
+        color: white;
+        font-size: 12.5px;
+        width: 100px;
+        size: 30px;
+    }
+    .setab:hover #setabB{
+        position: absolute;
+        top: 50%;
+        left:35%;
+        transform: translateY(-50%);
+    }
+    .APPETIZER{
+        font-family: "Playfair Display", serif;
+        font-size: 21px;
+        position: relative;
+        padding-bottom: 20px;
+        font-style: italic;
+        text-transform: uppercase;
+        margin-bottom: 50px;
+        
+    }
+#Menu-unico .menu-item1{
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: #010000;
+}
+#Menu-unico .menu-item2{
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: #010000;
+}
+.MAIN{
+    font-family: "Playfair Display", serif;
+    font-size: 21px;
+    position: relative;
+    padding-bottom: 20px;
+    font-style: italic;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+#Menu-unico .menu-item3{
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: #010000;
+}
+#Menu-unico .menu-item4{
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: #010000;
+}
+.DRINKS{
+    font-family: "Playfair Display", serif;
+    font-size: 21px;
+    position: relative;
+    padding-bottom: 20px;
+    font-style: italic;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+#Menu-unico .menu-item5{
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: #010000;
+}
+#Menu-unico .menu-item6{
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: #010000;
+}
+.feijaocomfarinha{
+    text-decoration: none;
+    font-size: 13px;;
+    font-weight: 500;
+    color: white;
+}
+.sub15{
+    color: #777777;
+    padding: 4px;
+
+}
+.menu-item1{
+padding: 30px;
+}
+.dropdown{
+    width: 20vh;
+    height: 150px;
+   
+    position: absolute;
+    display: none;
+    background-color: #fff;
+}
+#containerdropdown{
+    position: relative;
+   
+}
+#containerDropdown:hover div{
+        display: block;
+        transition: 1s ease;
+}
+
+::selection{
+    background-color: #ad9966;
+    color:white
+}
+
+#listaDeDentro .dropdown a {
+    display: block;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+.dropdown a {
+    display: block;
+    padding: 15px;
+    text-decoration: none; 
+    color: black;         
+}
+
+.dropdown a:visited {
+    color: black;          
+}
+
+.dropdown a:hover {
+    background: #ddd;
+}
+.dropdown{
+    padding-top: 25px;
+}
+.sect3{ width: 60%;
+margin: auto;}
+
+.img1 { display: inline-block;
+position: relative;
+top: 176px;
+left: -60px;}
+.img2 { display: inline-block;
+position: relative;
+top: -200px;
+right: -530px;}
+.img3 { display: inline-block;
+position: relative;
+top: -350px;
+left: 30px;}
+.img4 { display: inline-block;
+position: relative;
+top: -725px;
+right: -530px;}
+
+.sect-cardapio {padding: 120px 0;}
+
+
+
+.secao-reserva {
+  padding: 0 0 120px;
+  position: relative;
+  top: -500px;
+  width: 1050px;
+  margin-left: 20%;
+}
+.reserva-layout {
+  font-size: 0;
+  padding-right: -50px;
+  padding-left: -100px;
+  margin-top: -130px;
+  
+  
+}
+.reserva-formulario-area,
+.reserva-texto {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 15px;
+}
+.reserva-formulario-area {
+  width: 58%;
+  margin-right: 4%;
+}
+.reserva-texto {
+  width: 38%;
+}
+.formulario-reserva {
+  padding: 120px 50px 240px;
+  background: #faf5f0;
+  
+}
+
+
+
+.campo-grupo {
+  margin-bottom: 20px;
+}
+.campo-linha {
+  font-size: 0;
+}
+.campo-linha .campo-grupo {
+  display: inline-block;
+  width: calc(50% - 10px);
+  margin-right: 20px;
+  font-size: 15px;
+  vertical-align: top;
+}
+.campo-linha .campo-grupo:last-child {
+  margin-right: 0;
+}
+.formulario-reserva input,
+.formulario-reserva select,
+.formulario-reserva textarea {
+  width: 100%;
+  border: none;
+  border-radius: 0;
+  background: #fff;
+  color: #777;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  padding: 12px 15px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+.formulario-reserva input:focus,
+.formulario-reserva select:focus,
+.formulario-reserva textarea:focus {
+  box-shadow: 0 0 0 1px #ad9966;
+}
+.formulario-reserva textarea {
+  resize: none;
+  height: 130px;
+}
+.campo-botao {
+  text-align: right;
+  margin-top: 20px;
+}
+.reserva-texto .titulo-secao {
+  padding-top: 80px;
+}
+#BookATable{
+    color: #010000;
+    font-family: "Playfair Display", serif;
+    color: #000;
+    line-height: 1.2em;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-weight: normal;
+}
+#p1{
+    color: rgb(119, 119, 119);
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.7;
+}
+ .primary-btn2 {
+        line-height: 48px;
+        padding: 0 30px;
+        border-radius: 0px;
+        background: black;
+        border: 1px solid #ad9966;
+        color: #ffffff;
+        display: inline-block;
+        font-weight: normal;
+        position: relative;
+        letter-spacing: 2px;
+        -webkit-transition: all 0.4s ease 0s;
+        -moz-transition: all 0.4s ease 0s;
+        -o-transition: all 0.4s ease 0s;
+        transition: all 0.4s ease 0s;
+        cursor: pointer;
+        font-family: "Roboto", sans-serif;
+        font-size: 15px;
+    }
+    
+    .text-uppercase2 {
+        text-transform: uppercase !important;
+    }
+      .primary-btn2:hover{
+        color: #000;
+        background-color: #fff;
+        border: solid 1px #ad9966;
+        transition: 0.5s;
+    }
+    .primary-btn2:hover a{
+        color: #ad9966;
+    }
+#chefsquotes {position: relative;
+top: -200px;
+right: -200px;
+width: 200px;
+display: inline-block;}
+
+.imgchef {display: inline-block;}
+
+.chef {position: relative;
+top: -110px;
+right: -140px;
+width: 200px;
+display: inline-block;}
+
+.assinatura {position: relative;
+top: -300px;}
+
+#Chefs{
+        font-family: "Playfair Display", serif;
+    color: #000;
+    line-height: 1.2em;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-weight: normal;
+}
+#p2{
+    color: #777777;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.7;
+    position: relative;
+}
+#pgarlic {color: #777;
+font-family: "Roboto", sans-serif;
+letter-spacing: 2px;
+font-weight: 400;}
+
+#seccarrossel {background-image: url(https://preview.colorlib.com/theme/rooftop/img/callaction-bg.jpg);
+height: 450px;
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center;
+position: relative;
+top: -700px;}
+
+#divcarrossel {width: 100%;
+text-align: center;
+}
+
+#carrossel {background-color: #ffffff46;
+text-align: center;
+position: absolute;}
+
+#divmain {text-align: center;
+background-color: #ffffffd2;
+width: 500px;
+position: relative;
+top: 150px;
+right: -520px;
+padding-bottom: 25px;}
+
+#h1main {text-align: center;
+width: 100%;
+padding: 0%;
+font-size: 21px;
+letter-spacing: 0px;
+text-transform: uppercase;
+font-style: italic;
+position: relative;
+color: #000;
+padding-top: 40px}
+
+#hrmain {width: 300px;
+position: relative;
+left: -10px;
+top: 12.5px;
+}
+
+#pgarlic {font-weight: 500;
+font-size: 14px;
+letter-spacing: 0px;}
+
+
+.localizacao {height: 650px;
+width: 540px;}
+
+.txtlocalizacao {position: relative;
+top: -670px;
+right: -640px;
+width: 500px;
+line-height: 10px;
+display: inline-block;}
+
+#h12{
+    font-family: "Playfair Display", serif;
+    color: #000;
+    line-height: 1.2em;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-weight: normal;
+}
+#maps{
+        color: #777777;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.7;
+}
+.rodape {
+  background: #000;
+  padding: 80px 0 30px;
+  color: #999;
+}
+.rodape-colunas {
+  font-size: 0;
+  margin-bottom: 60px;
+}
+.rodape-coluna {
+  display: inline-block;
+  vertical-align: top;
+  width: 22%;
+  margin-right: 4%;
+  font-size: 15px;
+}
+.rodape-coluna:last-child {
+  margin-right: 0;
+}
+.rodape-coluna h4 {
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+.rodape-coluna ul li {
+  margin-bottom: 8px;
+}
+.rodape-coluna ul li a {
+  color: #999;
+  font-size: 14px;
+}
+.rodape-coluna ul li a:hover {
+  color: #ad9966;
+}
+.rodape-newsletter p {
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+.formulario-newsletter {
+  font-size: 0;
+}
+.formulario-newsletter input {
+  display: inline-block;
+  vertical-align: middle;
+  width: calc(100% - 50px);
+  padding: 10px 15px;
+  border: none;
+  background: #222;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  outline: none;
+}
+.formulario-newsletter input::placeholder {
+  color: #666;
+}
+.formulario-newsletter button {
+  display: inline-block;
+  vertical-align: middle;
+  width: 50px;
+  background: #ad9966;
+  border: none;
+  color: #fff;
+  padding: 10px 0;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 16px;
+}
+.formulario-newsletter button:hover {
+  background: #c4ae7a;
+}
+.rodape-inferior {
+  padding-top: 30px;
+  border-top: 1px solid #222;
+  text-align: center;
+  font-size: 0;
+}
+.rodape-inferior p,
+.rodape-inferior .redes-sociais {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 14px;
+  color: #666;
+}
+.rodape-inferior p {
+  margin-right: 30px;
+}
+.redes-sociais a {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  color: #999;
+  font-size: 16px;
+  margin-left: 10px;
+  transition: all 0.3s ease;
+}
+.redes-sociais a:hover {
+  color: #ad9966;
+}
+
+

@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rooftop Restaurant</title>
+    <link rel="stylesheet" href="rottof.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="header-area header-fixed">
+        <div>
+            <ul id="listaDeFora">
+                <li class="defora"><a href="" id="HOME">HOME</a></li>
+                <li class="defora"><a class="black" href="">MENU</a></li>
+                <li class="defora"><a href="" class="black">ABOUT</a></li>
+                <li class="defora" id="logo"><a href=""> <img src="logo.png"></a></li>
+                <li class="defora" id="containerDropdown">
+                    <a href="" class="black">PAGES ▼</a>
+                    <div class="dropdown">
+                        <ul id="listaDeDentro"><li class="subtitulo"><a href="">Contact</a></li>
+                        <li class="subtitulo"><a href="">Elements</a></li>
+                    </ul>
+                    </div>
+                </li>
+                <li class="defora" id="containerDropdown">
+                    <a href="" class="black">BLOG ▼</a>
+                    <div class="dropdown">
+                        <ul id="listaDeDentro"><li class="subtitulo"><a href="">Blog</a></li>
+                        <li class="subtitulo"><a href="">Blog Detail</a></li>
+                    </ul></div>
+                </li>
+                <li class="defora"><a href="" class="black">GALLERY</a></li>
+            </ul>
+        </div>
+    </header>
+    <section id="section1">
+        <div id="texto-centro">
+            <h1>ROOFTOP</h1>
+            <hr>
+            <p id="titulo">A Fine Dinning Restaurant</p>
+        </div>
+        <div class="setaa"><span id="setaaA">VIEW MENU</span></div>
+        <div class="setab"><img src="" ><span id="setabB">B00K A TABLE</span></div>
+    </section>
+
+    <section id="section2">
+        <div id="corpo">
+            <h1 id="titulo2">Daily Food <br> Courses <br> with Drinks </h1>
+            <p class="ana">Lorem ipsum dolor sit amet,
+             consectetur adipisicing elit,<br> sed do eiusmod tempor
+              incididunt ut labore et dolore <br>magna aliqua. 
+             Ut enim ad minim veniam, quis nostrud <br> exercitation 
+             ullamco laboris nisi ut aliquip ex ea commodo <br>consequat.
+            </p><br>
+
+            <p class="primary-btn text-uppercase"><a href="" class="feijaocomfarinha">see full menu</a></p>
+        </div>
+        <div id="sixseven">
+            <div class="menu-item">
+                <div id="Menu-unico">
+                    <h3 class="APPETIZER">APPETIZER</h3>
+
+                    <div class="menu-item1">
+                        Ham & Potato Sandwiches...$25.00
+                        <p class="sub15">(French bread baguette, cooked ham, potato salad)</p>
+                    </div>
+
+                    <div class="menu-item1">
+                        Ham & Potato Sandwiches... $25.00
+                        <p class="sub15">(French bread baguette, cooked ham, potato salad)</p>
+                    </div>
+
+                    <h3 class="MAIN">MAIN COURSES</h3>
+
+                    <div class="menu-item1">
+                        Ham & Potato Sandwiches...$25.00
+                        <p class="sub15">(French bread baguette, cooked ham, potato salad)</p>
+                    </div>
+
+                    <div class="menu-item1">
+                        Ham & Potato Sandwiches...$25.00
+                        <p class="sub15">(French bread baguette, cooked ham, potato salad)</p>
+                    </div>
+
+                    <h3 class="DRINKS">DRINKS & JUICES</h3>
+
+                    <div class="menu-item1">
+                        Ham & Potato Sandwiches... $25.00
+                        <p class="sub15">(French bread baguette, cooked ham, potato salad)</p>
+                    </div>
+
+                    <div class="menu-item1">
+                        Ham & Potato Sandwiches...$25.00
+                        <p class="sub15">(French bread baguette, cooked ham, potato salad)</p>
+                    </div>
+                </div>
+
+
+        
+            </div>
+        </div>    
+    </section>
+
+    <section class="sect3">
+        <div class="img1"><img src="https://preview.colorlib.com/theme/rooftop/img/gallery/g1.jpg"></div>
+        <div class="img2"><img src="https://preview.colorlib.com/theme/rooftop/img/gallery/g2.jpg"></div>
+        <div class="img3"><img src="https://preview.colorlib.com/theme/rooftop/img/gallery/g3.jpg"></div>
+        <div class="img4"><img src="https://preview.colorlib.com/theme/rooftop/img/gallery/g4.jpg"></div>
+    </section>
+
+<section id="secao-reserva" class="secao-reserva">
+    <div class="container">
+      <div class="reserva-layout">
+        <div class="reserva-formulario-area">
+          <form class="formulario-reserva" id="formularioReserva">
+            <div class="campo-grupo">
+              <input type="text" name="nome-evento" placeholder="Event Name" required>
+            </div>
+            <div class="campo-linha">
+              <div class="campo-grupo" id="dataev">
+                <input type="date" name="data-evento" placeholder="Event Date" required>
+              </div>
+              <div class="campo-grupo">
+                <select name="horario-evento" required id="eventime">
+                  <option value="" disabled selected>Event Time</option>
+                  <option value="17h">5pm</option>
+                  <option value="19h">7pm</option>
+                  <option value="20h">8pm</option>
+                  <option value="21h">9pm</option>
+                </select>
+              </div>
+            </div>
+            <div class="campo-linha">
+              <div class="campo-grupo">
+                <select name="num-convidados" required>
+                  <option value="" disabled selected>Number of Guests</option>
+                  <option value="1">1 person</option>
+                  <option value="2">2 person</option>
+                  <option value="3-5">3 to 5 perosn</option>
+                  <option value="6+">6 or more</option>
+                </select>
+              </div>
+              <div class="campo-grupo">
+                <input type="text" name="orcamento" placeholder="Budget">
+              </div>
+            </div>
+            <div class="campo-grupo">
+              <input type="text" name="nome-contato" placeholder="Contact Name" required>
+            </div>
+            <div class="campo-grupo">
+              <input type="email" name="email" placeholder="Email Address" required>
+            </div>
+            <div class="campo-grupo">
+              <input type="tel" name="telefone" placeholder="Phone Number">
+            </div>
+            <div class="campo-grupo">
+              <textarea name="mensagem" placeholder="Post a Message" rows="5"></textarea>
+            </div>
+            <div class="campo-botao">
+              <button type="submit" class="botao-principal escuro"><p class="primary-btn2 text-uppercase2"><a href="" class="feijaocomfarinha">Send Request</a></p></button>
+            
+            </div>
+          </form>
+        </div>
+        <div class="reserva-texto">
+          <div class="titulo-secao">
+            <h1 id="BookATable">
+              Book a<br>
+              table or<br>
+              rooms<br>
+              for<br>
+              private<br>
+              dining
+            </h1>
+            <p id="p1">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="secao-reserva" class="secao-reserva">
+    <div class="container">
+      <div class="reserva-layout">
+        
+        <div class="reserva-texto">
+          <div class="titulo-secao">
+            <h1 id="Chefs">
+              CHEF'S<br>
+              QUOTES
+            </h1>
+            <p id="p2">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
+        </div>
+
+        <div class="chef">
+          
+            <div>
+              <img class="imgchef" src="https://preview.colorlib.com/theme/rooftop/img/chefs-quotes.jpg">
+            </div>
+        </div>
+      </div>
+    </div>
+    <img class="assinatura" src="https://preview.colorlib.com/theme/rooftop/img/signature.png">
+  </section>
+
+<section id="seccarrossel">
+    <div id="divcarrosel">
+      <div id="divmain">
+        <h1 id="h1main">
+          Main Course
+        </h1>
+        <hr id="hrmain">
+        <p id="pgarlic">Chicken Steak with garlic bread & Fries</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="secao-reserva" class="secao-reserva">
+    <div class="container">
+      <div class="reserva-layout">
+        
+        <div class="localizacao">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.0976951333286!2d-46.65342!3d-23.56506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDMzJzU0LjIiUyA0NsKwMzknMTIuMyJX!5e0!3m2!1spt-BR!2sbr!4v1234567890"
+            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+            title="Localização do Restaurante Rooftop">
+          </iframe>
+        </div>
+
+        <div class="txtlocalizacao">
+          
+          <div class="reserva-texto">
+              <div class="titulo-secao">
+            <h1 id="h12">
+              Rooftop<br>
+              Fine Dining<br>
+              Restaurant
+            </h1>
+              <p id="maps">432 Wyandotte Ave, Lakewood, OH, 44107<br>432 Wyandotte Ave, Lakewood, OH, 44107</p>
+
+              <p id="maps">012 44 (216) 785-9346<br>012 44 (216) 785-9346<br>012 44 (216) 785-9346</p>
+
+              <p id="maps">info@rooftoprestaurant.co.uk<br>support@rooftoprestaurant.com</p>
+              </div>
+           </div>
+      </div>
+    </div>
+  </section>
+  
+    <footer id="rodape" class="rodape">
+    <div class="container">
+      <div class="rodape-colunas">
+        <div class="rodape-coluna">
+          <h4>Home</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Home</a></li>
+          </ul>
+        </div>
+        <div class="rodape-coluna">
+          <h4>Links</h4>
+          <ul>
+            <li><a href="#">Trabalhe Conosco</a></li>
+            <li><a href="#">Sobre Nós</a></li>
+            <li><a href="#">Política de Privacidade</a></li>
+            <li><a href="#">Termos de Uso</a></li>
+          </ul>
+        </div>
+        <div class="rodape-coluna">
+          <h4>Horários</h4>
+          <ul>
+            <li><a href="#">Seg a Qui: 18h - 23h</a></li>
+            <li><a href="#">Sex e Sáb: 18h - 01h</a></li>
+            <li><a href="#">Domingos: 12h - 22h</a></li>
+            <li><a href="#">Feriados: Consultar</a></li>
+          </ul>
+        </div>
+        <div class="rodape-coluna rodape-newsletter">
+          <h4>Newsletter</h4>
+          <p>Stay update with our latest</p>
+          <form class="formulario-newsletter">
+            <input type="email" placeholder="e-mail" required>
+            <button type="submit"><i class="fa-solid fa-arrow-right"></i></button>
+          </form>
+        </div>
+      </div>
+      <div class="rodape-inferior">
+        <div class="redes-sociais">
+          <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
